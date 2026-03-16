@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Fraunces", serif;
+  --font-body: "DM Sans", sans-serif;
+
+  --color-teal: #2E9E8F;
+  --color-teal-dark: #008c8c;
+  --color-teal-light: #e6f5f3;
+  --color-terracotta: #C84B31;
+  --color-terracotta-light: #fdf0ed;
+  --color-bg: #F8F7F4;
+  --color-surface: #FFFFFF;
+  --color-text: #1A1A1A;
+  --color-text-secondary: #6B7280;
+  --color-border: #E5E7EB;
+
+  --color-cat-promocional: #2E9E8F;
+  --color-cat-comunitario: #F59E0B;
+  --color-cat-corporativo: #8B5CF6;
+  --color-cat-institucional: #3B82F6;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
